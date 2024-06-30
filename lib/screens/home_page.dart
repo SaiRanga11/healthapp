@@ -10,7 +10,7 @@ import 'dart:async';
 import 'package:healthapp/services/auth.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key});
+  const HomePage({superKey, Key? key});
 
   @override
   State<HomePage> createState() => _HomePageState();
